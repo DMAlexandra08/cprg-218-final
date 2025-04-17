@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+#logo{
+    display: block;
+    margin: auto;
+    width: 45%;
+}
+header{
+    background-color: #ffd480;
+    width: 100%;
+    height: auto;
+}
