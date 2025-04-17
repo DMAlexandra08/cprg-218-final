@@ -7,9 +7,19 @@
     margin: auto;
     width: 45%;
 }
+
 header{
-    background-color: #ffd480;
+    background-color: #f5dba6;
     width: 100%;
     height: auto;
     text-align: center;
+    color: #007f86;
+}
+
+#nav{
+    color: black;
+}
+
+#weather{
+    
 }
