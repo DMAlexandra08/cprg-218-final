@@ -113,6 +113,18 @@ body{
 
 }
 
+blockquote::before{
+    content: open-quote open-quote;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+blockquote::after{
+    content: close-quote close-quote;
+    font-weight: bold;
+    font-size: 35px;
+}
+
 #testimonies{
     background-color: #e8f4f8;
     padding: 20px 15px;
@@ -131,11 +143,34 @@ body{
     font-style: normal;
 }
 
+.btn{
+    background-color: #4f46e5;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+.btn:hover{
+    background-color: #4338ca;
+}
+
+.btn:active{
+    transform: scale(0.76);
+}
+
 footer{
+    background-color: #f5dba6;
     text-align: center;
     padding: 2px;
     margin: 20px;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 footer li{
