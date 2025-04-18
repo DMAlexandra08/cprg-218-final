@@ -66,8 +66,23 @@ body{
     box-shadow: 0 8px 20px rgb(0 0 1);
 }
 
-#one{
+.img_spa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section_a{
     background-color: #f0f8ff;
+    padding: 50px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgb(0, 0, 1);
+    max-width: 100%;
+    margin: 50px auto;
+}
+
+#section_i{
+    background-color: #cad3db;
     padding: 50px 30px;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgb(0, 0, 1);
@@ -84,6 +99,18 @@ body{
 
 #list{
     text-align: center;
+}
+
+#list_i{
+    text-align: center;
+    margin-right: 75px;
+    list-style: none;
+    margin: 20px;
+}
+
+#list_i ul{
+    list-style: none;
+
 }
 
 #testimonies{
