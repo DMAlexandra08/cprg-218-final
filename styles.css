@@ -14,15 +14,20 @@ header{
     height: auto;
     text-align: center;
     color: #007f86;
+    box-shadow: 0 3px 20px 0 rgb(0 0 1);
+}
+
+nav{
+    background-color: #e3cb99;
 }
 
 #nav ul{
     display: flex;
     justify-content: space-between;
     padding: 2rem;
-    max-width: fit-content;
+    max-width: 100%;
     margin: 0;
-    list-style: none;;
+    list-style: none;
 }
 
 #nav li{
@@ -34,7 +39,7 @@ header{
     color: aliceblue;
     border-radius: 6px;
     padding: .5rem;
-    background-color: red;
+    background-color: #e0f7fa;
 }
 
 #weather{
@@ -44,16 +49,68 @@ header{
 }
 
 body{
-    background-color: bisque;
+    background-color: #e0f7fa;
 }
 
 #catchprase{
     background-color: #e0f7fa;
-    border: 2px solid #00796b;
     padding: 40px;
     text-align:center;
     border-radius: 9px;
     margin: 20px auto;
     max-width: fit-content;
-    box-shadow: 0 4px 8px rgb(0, 0, 1);
+    font-size: 1.5rem;
+}
+
+#img{
+    box-shadow: 0 8px 20px rgb(0 0 1);
+}
+
+#one{
+    background-color: #f0f8ff;
+    padding: 50px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgb(0, 0, 1);
+    max-width: 100%;
+    margin: 50px auto;
+}
+
+#titles{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+
+}
+
+#list{
+    text-align: center;
+}
+
+#testimonies{
+    background-color: #e8f4f8;
+    padding: 20px 15px;
+    border-radius: 12px;
+    border: 3px solid black;
+    margin:50px auto;
+    text-align: center;
+    color: #333;
+}
+
+#testimonies p{
+    font-style: italic;
+}
+
+#testimonies p:last-child{
+    font-style: normal;
+}
+
+footer{
+    text-align: center;
+    padding: 2px;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+footer li{
+    list-style: none;
 }
